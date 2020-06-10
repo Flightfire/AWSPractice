@@ -8,6 +8,7 @@ import functools
 import jwt
 
 # pylint: disable=import-error
+# add log for commit
 from flask import Flask, jsonify, request, abort
 
 
