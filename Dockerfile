@@ -1,4 +1,4 @@
-FROM aws/codebuild/standard:2.0
+FROM python:stretch
 
 COPY . /app
 WORKDIR /app
